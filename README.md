@@ -36,6 +36,12 @@ Copy your Events API URL from the Settings & Privacy page right click on '***Eve
 
 Look for const baseUrl = "***EVENTS_API_URL***" line and paste in the 'EVENTS_API_URL'
 
+To show your username in orange within the feed scroll down to:
+
+'if (username == "CBRULES") {'
+
+and change '***CBRULES***' to your username
+
 Then save.
 
 # OBS
