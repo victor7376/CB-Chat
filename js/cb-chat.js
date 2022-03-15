@@ -128,4 +128,4 @@ function getEvents(url) {
     
 }
 
-getEvents(baseDev) // Change between baseUrl & baseDev - 'baseUrl' is Chaturbate Main site / 'baseDev' is Chaturbate Testbed site
+getEvents(baseUrl) // Change between baseUrl & baseDev - 'baseUrl' is Chaturbate Main site / 'baseDev' is Chaturbate Testbed site
