@@ -8,6 +8,7 @@ Extract the file then follow the below instructions.
 ***~~If you do not want Gray / Grey users to appear in the live feed, set your room to only those with tokens~~***
 
 ~~We are wokring on a solution for gray / grey spammers not to appear in the live feed.~~
+
 Gray / Grey chat no longer appear in live feed, disabled due to spammers.
 
 # OBS Chat feed
