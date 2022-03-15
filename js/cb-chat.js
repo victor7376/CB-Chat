@@ -68,33 +68,40 @@ function getEvents(url) {
 				if (username == "CBRULES") { // Change to your username to appear on the chat feed as orange
 					usernameText.setAttribute("class", "broadcasterText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (moderator == true){
 					usernameText.setAttribute("class", "moderatorText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (moderator == "true" && fanclub == "true"){
 					usernameText.setAttribute("class","moderatorText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (fanclub == true)  {
 					usernameText.setAttribute("class", "fanclubText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (recentTips == "tons"){
 					usernameText.setAttribute("class", "tonsText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (recentTips == "lots"){
 					usernameText.setAttribute("class", "lotsText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (recentTips == "some"){
 					usernameText.setAttribute("class", "someText");
 					user.textContent = `${username}`;
+					chatText.textContent = `${cleanmessage}`;
 				} else if (hasTokens == true){
 					usernameText.setAttribute("class", "hasTokensText");
 					user.textContent = `${username}`;
-				} else {
-					usernameText.setAttribute("class", "userText");
+					chatText.textContent = `${cleanmessage}`;
+				} else if (hasTokens == false){
+					/* usernameText.setAttribute("class", "userText");
 					user.textContent = `${username}`;
+					chatText.textContent = ``; */
 				}
-				
-				chatText.textContent = `${cleanmessage}`;
 				
                 console.log(`${object["user"]["username"]} sent chat message: ${object["message"]["message"]}`)
             } else if (method === "privateMessage") {
