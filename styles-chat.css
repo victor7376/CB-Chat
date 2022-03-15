@@ -1,0 +1,468 @@
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Ubuntu-Regular.ttf'); /* IE9 Compat Modes */
+  src: local(''),
+     url('ubuntur-webfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+     url('ubuntur-webfont.woff') format('woff'), /* Modern Browsers */
+     url('ubuntu-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+     url('ubuntu-regular.svg') format('svg'); /* Legacy iOS */
+ }
+
+body, html {
+  padding: 3px 3px 3px 3px;
+  color: #fff;
+  background-color: #000;
+}
+/* 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font: 1.2em/1.4em 'UbuntuRegular',Arial,Helvetica,sans-serif;
+  color: #b3b3b3;
+  font-size: 100.01%;
+} */
+
+/* model room details */
+
+
+#chatBox{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:205vw;
+	overflow:scroll;
+}
+.username{
+	color: #b3b3b3;
+}
+.msg{
+	color: #b3b3b3;
+}
+.chatmsg{
+	font-size:2;
+}
+
+.ChatTabContainershow{
+    color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    border: none;
+    background-color: #000;
+    height: 503.75px;
+    width: 400px;
+    position: absolute;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    border-radius: 4px 4px 2px 2px;
+    margin: 0px 0px 6px 8px;
+    box-sizing: border-box;
+	font: 12px / 1.4em UbuntuRegular, Arial, Helvetica, sans-serif;
+    user-select: text;
+    cursor: text;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    overflow: scroll;
+    margin: 0px auto 5px;
+    padding: 5px;
+    line-height: 17pt;
+}
+  
+.ChatTabContainer{
+	color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    height: 456px;
+	list-style: none;
+}
+  
+.ChatTabContents{
+	color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    height: 100%;
+    width: 100%;
+    position: static;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-size: 9pt;
+	list-style: none;
+}
+  
+.msg-list-wrapper-split {
+	  color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0px auto 5px;
+    padding: 5px;
+    height: 422px;
+    line-height: 16pt;
+}
+  
+.msg-list-fvm.message-list{
+	  font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 16pt;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    user-select: text;
+    cursor: text;
+    padding-bottom: 4px;
+	list-style: none;
+}
+  
+  .nth-child{
+	  font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 16pt;
+    user-select: text;
+    cursor: text;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    color: #fff;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 2px 5px 3px;
+    overflow-wrap: break-word;
+  }
+  
+ .dm-adjust{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	padding: 2px 5px 3px;
+	overflow-wrap: break-word;
+	list-style: none;
+  }
+  
+  .dm-adjust-bg {
+	  width: 100%;
+	  display: inline-block;
+	  padding: 0px;
+	  margin-right: 4px;
+	  background: rgb(32, 44, 57);
+  }
+  
+  .broadcasterText {
+  height: auto;
+  width: auto;
+  color: #dc5500;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .hasTokensText {
+  height: auto;
+  width: auto;
+  color: #69a;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .tonsText {
+  height: auto;
+  width: auto;
+  color: #804baa;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .lotsText {
+  height: auto;
+  width: auto;
+  color: #be6aff;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .someText {
+  height: auto;
+  width: auto;
+  color: #1e5cfb;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .userText {
+  height: auto;
+  width: auto;
+  color: #939393;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .fanclubText {
+  height: auto;
+  width: auto;
+  color: #090;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .moderatorText {
+  height: auto;
+  width: auto;
+  color: #dc0000;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .chatText {
+  height: auto;
+  width: auto;
+  color: #000;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .enterText {
+  height: 0px;
+  width: 0px;
+  color: #000;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  max-width: 0%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 1px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+.span{
+	  vertical-align: middle;
+}
+
+.split-mode{
+	font: 12px / 1.4em UbuntuRegular, Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 17pt;
+    user-select: text;
+    cursor: text;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 100.01%;
+    color: rgb(255, 255, 255);
+}
+
+.li{
+	display: list-item;
+	list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+.fanclubText{
+	color: #090;
+}
+
+.moderatorText{
+	color: #dc0000
+}
+
+.message-list{
+	width: 50%;
+	user-select: text;
+	cursor: text;
+	padding-bottom: 4px;
+}
+
+.msg-list-wrapper-split{
+	box-sizing: border-box;
+	overflow: auto;
+	margin: 0px auto 5px;
+	padding: 5px;
+	height: 558px;
+	line-height: 17pt;
+}
+
+.ChatTabContents{
+	style="height: 100%;
+	width: 100%;
+	position: static;
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	font-size: 10pt;"
+}
+
+.pT{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+.tipped{
+	height: 0px;
+	width: 0px;
+	color: #000;
+	overflow: hidden;
+	-webkit-tap-highlight-color: transparent;
+	max-width: 0%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	padding-right: 1px;
+	text-decoration: none;
+	cursor: default;
+	list-style: none;
+}
+
+.fanclub{
+	display: inline-block;
+	background: rgb(51, 255, 72);
+	margin-top: 1px;
+	text-shadow: none;
+	padding: 0px 1px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.followText {
+  height: auto;
+  width: auto;
+  color: #939393;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
+  
+  .unfollowText {
+  height: auto;
+  width: auto;
+  color: #939393;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 4px;
+  text-decoration: none;
+  cursor: default;
+  list-style: none;
+  }
