@@ -5,6 +5,10 @@ Select CODE - then Download ZIP.  This will download all the files into a zip fo
 
 Extract the file then follow the below instructions.
 
+***If you do not want Gray / Grey users to appear in the live feed, set your room to only those with tokens***
+
+We are wokring on a solution for gray / grey spammers not to appear in the live feed.
+
 # OBS Chat feed
 This is a webpage that allows you to see the chat feed using Chaturbate Events API including when users join fan clubs too.  Tip feed is an option but at this moment has no css coding.
 
