@@ -1,0 +1,188 @@
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Ubuntu-Regular.ttf'); /* IE9 Compat Modes */
+  src: local(''),
+     url('ubuntur-webfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+     url('ubuntur-webfont.woff') format('woff'), /* Modern Browsers */
+     url('ubuntu-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+     url('ubuntu-regular.svg') format('svg'); /* Legacy iOS */
+ }
+
+body, html {
+  padding: 3px 3px 3px 3px;
+  color: #000;
+  background-image: url(images/test.png);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font: 1.2em/1.4em 'UbuntuRegular',Arial,Helvetica,sans-serif;
+  color: #b3b3b3;
+  font-size: 100.01%;
+}
+
+.main {
+  font: 1.2em/1.4em 'UbuntuRegular',Arial,Helvetica,sans-serif;
+  font-size: 100.01%;
+  width: 100%;
+  color: #b3b3b3;
+}
+
+/* model room details */
+
+
+ul {
+  padding: 0px;
+}
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font: 1.166em/1.142em 'UbuntuMedium',Arial,Helvetica,sans-serif;
+  color: #fff!important;
+}
+
+#chatBox{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:205vw;
+	overflow:scroll;
+}
+.username{
+	color: #b3b3b3;
+}
+.msg{
+	color: #b3b3b3;
+}
+.chatmsg{
+	font-size:2;
+}
+
+.ChatTabContainershow{
+    color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    border: none;
+    background-color: #000;
+    height: 503.75px;
+    width: 500px;
+    position: absolute;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    border-radius: 4px 4px 2px 2px;
+    margin: 0px 0px 6px 8px;
+    box-sizing: border-box;
+	font: 12px / 1.4em UbuntuRegular, Arial, Helvetica, sans-serif;
+    user-select: text;
+    cursor: text;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    overflow: scroll;
+    margin: 0px auto 5px;
+    padding: 5px;
+    line-height: 17pt;
+}
+  
+.ChatTabContainer{
+	color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    height: 456px;
+	list-style: none;
+}
+  
+.ChatTabContents{
+	color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    height: 100%;
+    width: 100%;
+    position: static;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-size: 9pt;
+	list-style: none;
+}
+  
+.msg-list-wrapper-split {
+	  color: #b3b3b3;
+    font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0px auto 5px;
+    padding: 5px;
+    height: 422px;
+    line-height: 16pt;
+}
+  
+.msg-list-fvm.message-list{
+	  font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    font-family: UbuntuRegular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 16pt;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    user-select: text;
+    cursor: text;
+    padding-bottom: 4px;
+	list-style: none;
+}
+  
+  .nth-child{
+	  font: 1em UbuntuRegular, Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 16pt;
+    user-select: text;
+    cursor: text;
+    font-size: 100.01%;
+    -webkit-text-size-adjust: none;
+    color: #fff;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 2px 5px 3px;
+    overflow-wrap: break-word;
+  }
+  
+ .dm-adjust{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	padding: 2px 5px 3px;
+	overflow-wrap: break-word;
+	list-style: none;
+  }
+  
+  .dm-adjust-bg {
+	  width: 100%;
+	  display: inline-block;
+	  padding: 0px;
+	  margin-right: 4px;
+	  background: rgb(32, 44, 57);
+  }
+  
