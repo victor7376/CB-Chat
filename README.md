@@ -11,6 +11,9 @@ Extract the file then follow the below instructions.
 
 Gray / Grey chat no longer appear in live feed, disabled due to spammers.
 
+# CB-Status
+Page for showing the room status within OBS
+
 # OBS Chat feed
 This is a webpage that allows you to see the chat feed using Chaturbate Events API including when users join fan clubs too.  Tip feed is an option but at this moment has no css coding.
 
